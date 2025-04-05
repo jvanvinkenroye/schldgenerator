@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="70cm"
+   height="40cm"
+   viewBox="0 0 700.00001 400"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   sodipodi:docname="dhbw_schild_vorlage.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.49259772"
+     inkscape:cx="954.12541"
+     inkscape:cy="424.2813"
+     inkscape:window-width="1760"
+     inkscape:window-height="1047"
+     inkscape:window-x="0"
+     inkscape:window-y="44"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2"
+       transform="translate(0.46626641,-30.146626)">
+      <rect
+         style="fill:none;stroke:#ff0000;stroke-width:0.0884614;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-2"
+         width="135.94026"
+         height="29.822571"
+         x="9.5103855"
+         y="45.582382" />
+      <text
+         xml:space="preserve"
+         style="font-size:13.9422px;fill:none;stroke:#0000ff;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         x="23.530798"
+         y="53.108631"
+         id="text1-8"
+         transform="scale(0.77926955,1.283253)"><tspan
+           sodipodi:role="line"
+           id="tspan1-7"
+           style="stroke:#0000ff;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           x="23.530798"
+           y="53.108631">Preni, Sinty</tspan></text>
+      <rect
+         style="fill:none;stroke:#ff0000;stroke-width:0.0997034;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2-1"
+         width="2.9308708"
+         height="14.895284"
+         x="121.49645"
+         y="60.523781" />
+      <rect
+         style="fill:none;stroke:#ff0000;stroke-width:0.0997034;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2-2-4"
+         width="2.9308708"
+         height="14.895284"
+         x="154.07898"
+         y="60.609623" />
+      <rect
+         style="fill:none;stroke:#ff0000;stroke-width:0.131816;stroke-dasharray:none;stroke-opacity:1"
+         id="rect3-0"
+         width="35.196434"
+         height="29.779215"
+         x="145.49341"
+         y="45.668594" />
+    </g>
+  </g>
+</svg>

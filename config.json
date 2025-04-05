@@ -1,0 +1,11 @@
+{
+    "vorlage_svg": "vorlage.svg",
+    "namen_datei": "namen.txt",
+    "ausgabe_svg": "ausgabe.svg",
+    "canvas_breite": 700,
+    "canvas_hoehe": 400,
+    "spalten": 4,
+    "zeilen": 10,
+    "schild_breite": 135.94,
+    "schild_hoehe": 29.82
+} 
