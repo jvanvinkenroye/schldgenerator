@@ -99,4 +99,5 @@ Anna Schmidt
 
 ## Autor
 
-Jan Vanvinkenroye jan@vanvinkenroye.de
+Jan Vanvinkenroye <jan@vanvinkenroye.de>
+

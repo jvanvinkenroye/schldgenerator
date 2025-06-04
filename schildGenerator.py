@@ -44,9 +44,34 @@ class SchildGenerator:
             }
 
     def _calculate_spacing(self) -> tuple:
-        """Berechnet die Abstände zwischen den Schildern."""
-        horizontal_abstand = (self.config['canvas_breite'] - self.config['spalten'] * self.config['schild_breite']) / (self.config['spalten'] - 1)
-        vertical_abstand = (self.config['canvas_hoehe'] - self.config['zeilen'] * self.config['schild_hoehe']) / (self.config['zeilen'] - 1)
+        """Berechnet die Abstände zwischen den Schildern.
+
+        Wenn nur eine Spalte oder Zeile vorhanden ist, wird der jeweilige
+        Abstand zu 0 gesetzt, um eine Division durch Null zu vermeiden.
+        """
+
+        spalten = self.config.get('spalten', 1)
+        zeilen = self.config.get('zeilen', 1)
+
+        if spalten < 1 or zeilen < 1:
+            raise ValueError("'spalten' und 'zeilen' müssen mindestens 1 sein")
+
+        if spalten == 1:
+            horizontal_abstand = 0
+        else:
+            horizontal_abstand = (
+                self.config['canvas_breite']
+                - spalten * self.config['schild_breite']
+            ) / (spalten - 1)
+
+        if zeilen == 1:
+            vertical_abstand = 0
+        else:
+            vertical_abstand = (
+                self.config['canvas_hoehe']
+                - zeilen * self.config['schild_hoehe']
+            ) / (zeilen - 1)
+
         return horizontal_abstand, vertical_abstand
 
     def _find_template_group(self, layer: ET.Element) -> Optional[ET.Element]:
